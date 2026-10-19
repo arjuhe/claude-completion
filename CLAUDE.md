@@ -8,7 +8,17 @@ A hand-maintained bash completion file for the `claude` CLI (Claude Code). The u
 
 ## Installation
 
-The completion file is symlinked into the bash-completion 2.x user directory:
+### Homebrew (primary)
+
+```bash
+brew install arjuhe/tap/claude-completion
+```
+
+This installs into `/opt/homebrew/etc/bash_completion.d/claude` via bash-completion@2.
+
+### Manual (development)
+
+Symlink into the bash-completion 2.x user directory:
 
 ```
 ~/.local/share/bash-completion/completions/claude -> ~/proj/arjuhe/claude-completion/claude.bash
